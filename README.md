@@ -1,6 +1,6 @@
-# homebrew
+# brew
 
 ```bash
-brew tap berkinory/homebrew https://github.com/berkinory/homebrew
+brew tap berkinory/brew https://github.com/berkinory/brew
 brew install --cask notchera
 ```
