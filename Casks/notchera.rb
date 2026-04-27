@@ -1,6 +1,6 @@
 cask "notchera" do
-  version "0.0.9"
-  sha256 "809ee1064909e9c1654a4ae601db2e4f05f89d364f7b4e31de1608afbe9b4650"
+  version "0.1.0"
+  sha256 "661dee7337fdd9d25f11aa5b1863eff7fb20c1143b24e0b8ece91254253ab346"
 
   url "https://github.com/berkinory/Notchera/releases/download/v#{version}/Notchera-brew.zip"
   name "Notchera"
