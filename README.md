@@ -1,7 +1,7 @@
 # brew
 
 ```sh
-brew tap berkinory/brew https://github.com/berkinory/brew.git
+brew tap berkinory/brew
 brew install --cask berkinory/brew/notchera
 brew install --cask berkinory/brew/bettercast
 ```
