@@ -1,6 +1,10 @@
 # brew
 
-```bash
-brew tap berkinory/brew https://github.com/berkinory/brew
-brew install --cask notchera
+```sh
+brew tap berkinory/brew https://github.com/berkinory/brew.git
+brew install --cask berkinory/brew/notchera
+brew install --cask berkinory/brew/bettercast
 ```
+
+The casks live in `Casks/`. Bettercast's release workflow updates its version and SHA-256 after every
+release.
