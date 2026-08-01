@@ -8,4 +8,15 @@ cask "opencast" do
   homepage "https://github.com/berkinory/opencast"
 
   app "Opencast.app"
+
+  postflight do
+    marker = Pathname.new(Dir.home).join("Library/Application Support/com.opencast.app/distribution")
+    marker.dirname.mkpath
+    marker.write("homebrew\n")
+  end
+
+  uninstall_postflight do
+    marker = Pathname.new(Dir.home).join("Library/Application Support/com.opencast.app/distribution")
+    marker.delete if marker.exist?
+  end
 end
