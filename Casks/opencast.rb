@@ -1,6 +1,6 @@
 cask "opencast" do
-  version "0.2.2"
-  sha256 "bc0207ae96f122e0eeced75973691f297ab21b397c6046d1f0d3f444ec774349"
+  version "0.2.3"
+  sha256 "aad26d2cdcca576a5e1e7f8c6f0a7f37ea18ae90489986a6ac9821094ac8e64d"
 
   url "https://github.com/berkinory/opencast/releases/download/v#{version}/Opencast-#{version}.dmg"
   name "Opencast"
